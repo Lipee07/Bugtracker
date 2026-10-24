@@ -1,0 +1,37 @@
+# Environment variables and secrets
+
+.env
+.env.*
+!.env.example
+
+# Python
+
+**pycache**/
+*.py[cod]
+*.pyo
+venv/
+.venv/
+env/
+
+# Python testing and tooling
+
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Node.js
+
+node_modules/
+dist/
+.vite/
+
+# Environment and editor files
+
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Logs
+
+*.log
